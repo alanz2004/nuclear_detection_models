@@ -1,0 +1,73 @@
+{
+    "id": "af6bdf09-5b26-4c09-af7e-d5ae2b338bb8",
+    "name": "LSTM_LOCA_Model",
+    "architecture": "LSTM with Dropout",
+    "version": "1.0",
+    "accuracy": 0.999615606380934,
+    "validation": 0.9995915032679739,
+    "precision": 0.9995915032679739,
+    "confusionMatrix": [
+        [
+            2754,
+            1
+        ],
+        [
+            1,
+            2447
+        ]
+    ],
+    "description": "HIGH-LEVEL AI \ud83d\udd2c - Excellent detection performance.",
+    "dropoutRate": 0.4,
+    "learningRate": 5e-05,
+    "dataset": {
+        "totalSize": 26020,
+        "features": [
+            "feature_0",
+            "feature_1",
+            "feature_2",
+            "feature_3",
+            "feature_4",
+            "feature_5",
+            "feature_6",
+            "feature_7",
+            "feature_8",
+            "feature_9",
+            "feature_10",
+            "feature_11",
+            "feature_12",
+            "feature_13"
+        ],
+        "source": "LOCA sliding window dataset",
+        "accidentPercentage": 47.60051880674448
+    },
+    "history": {
+        "loss": [
+            0.6915295720100403,
+            0.6887920498847961,
+            0.6807438731193542,
+            0.41654065251350403,
+            0.05607426539063454
+        ],
+        "val_loss": [
+            0.6886645555496216,
+            0.6840282678604126,
+            0.6635092496871948,
+            0.04335221275687218,
+            0.005594930145889521
+        ],
+        "accuracy": [
+            0.521256685256958,
+            0.537301242351532,
+            0.5678532123565674,
+            0.8123648762702942,
+            0.9940433502197266
+        ],
+        "val_accuracy": [
+            0.5387276411056519,
+            0.5714011192321777,
+            0.6123390197753906,
+            0.9965404868125916,
+            0.9996156096458435
+        ]
+    }
+}
