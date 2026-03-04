@@ -95,7 +95,7 @@ The system architecture allows:
 
 ## System Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/nuclear_ai_architecture.png)
 
 Pipeline:
 
@@ -144,6 +144,9 @@ Reactor Telemetry Data
 ---
 
 ## Repository Structure
+## 📁 Project Structure
+
+```
 project-root
 │
 ├── server
@@ -155,10 +158,9 @@ project-root
 │   │   │   └── model_manager.py
 │   │   │
 │   │   └── core
-│   │
-│   ├── models
-│   │   ├── LSTM_LOCA_Model_info.json
-│   │   └── final_model.keras
+│   │       └── models
+│   │           ├── LSTM_LOCA_Model_info.json
+│   │           └── final_model.keras
 │   │
 │   ├── main.py
 │   └── requirements.txt
@@ -166,12 +168,13 @@ project-root
 ├── frontend
 │   └── neural-sight-dashboard
 │
-├── NuclearPowerPlantAccidentData
+├── model
 │   ├── datasets
 │   └── scripts
 │
 └── docs
     └── architecture.png
+```
 
 # Backend Installation (FastAPI)
 
