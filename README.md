@@ -43,6 +43,32 @@ The system architecture allows:
 
 ---
 
+##  Training Data
+
+The model was trained using simulated nuclear reactor operational data generated with the NPPAD simulation environment.
+
+NPPAD provides realistic reactor telemetry that represents the behavior of a nuclear power plant under both normal operating conditions and accident scenarios. This allows machine learning models to learn complex patterns that precede reactor anomalies.
+
+The dataset includes multivariate time-series signals representing core reactor parameters such as:
+
+coolant flow rate
+
+reactor pressure
+
+core temperature
+
+pump activity
+
+control rod behavior
+
+other safety-critical reactor indicators
+
+Using simulated data allows safe experimentation with rare and dangerous events that cannot be reproduced in real reactors.
+
+Link:  https://github.com/thu-inet/NuclearPowerPlantAccidentData
+
+---
+
 ## System Architecture
 
 ![Architecture](docs/nuclear_ai_architecture.png)
