@@ -93,25 +93,6 @@ The system architecture allows:
 
 ---
 
-## System Architecture
-
-![Architecture](docs/nuclear_ai_architecture.png)
-
-Pipeline:
-
-React Dashboard
-│
-▼
-FastAPI ML Server
-│
-▼
-TensorFlow LSTM Model
-│
-▼
-Reactor Telemetry Data
-
-
----
 
 ## Features
 
