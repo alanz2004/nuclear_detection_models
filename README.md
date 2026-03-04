@@ -45,7 +45,7 @@ The system architecture allows:
 
 ## System Architecture
 
-![Architecture](docs/architecture.png)
+![Architecture](docs/nuclear_ai_architecture.png)
 
 Pipeline:
 # Nuclear AI Safety Detection
